@@ -10,7 +10,7 @@
 		{
 			"title":"ML4W OS Settings",
 			"source":".config/ml4w/settings",
-			"value":true
+			"value":false
 		},
 		{
 			"title":"Input",
@@ -49,7 +49,7 @@
 		},
 		{
 			"title":"Keybindings",
-			"source":".config/hypr/conf/keybinding.lua",
+			"source":".config/hypr/conf/keybindings",
 			"value":true
 		},
 		{

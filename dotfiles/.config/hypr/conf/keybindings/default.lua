@@ -6,7 +6,11 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("~/.config/ml4w/settings/termina
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("~/.config/ml4w/settings/browser.sh"), { description = "Open the browser" })
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("~/.config/ml4w/settings/filemanager"), { description = "Open the filemanager" })
 hl.bind(mainMod .. " + CTRL + E", hl.dsp.exec_cmd("~/.config/ml4w/settings/emojipicker.sh"), { description = "Open the emoji picker" })
-hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("~/.config/ml4w/settings/calculator.sh"), { description = "Open the calculator" })
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("claude-desktop"), { description = "Open Claude Desktop" })
+hl.bind(mainMod .. "+ D", hl.dsp.exec_cmd("discord"), { description = "Open Discord" })
+hl.bind(mainMod .. "+ S", hl.dsp.exec_cmd("steam"), { description = "Open Steam" })
+
+
 
 -- AZERTY keyboard layout setup
 -- On AZERTY the number row needs Shift, so Hyprland sees the unshifted

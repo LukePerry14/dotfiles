@@ -1,17 +1,19 @@
 font-family = JetBrainsMono Nerd Font
 font-size = 12
-window-width = 950
-window-height = 500
-cursor-style = block
-cursor-style-blink = true
-scrollback-limit = 10000000
-mouse-scroll-multiplier = 1
 window-padding-x = 10
 window-padding-y = 10
-window-decoration = false
-background-opacity = 0.7
-background-blur = true
-confirm-close-surface = false
+window-decoration = true
+cursor-style = block
+adjust-cell-height = 35%
+mouse-scroll-multiplier = 2
+window-colorspace = "display-p3"
+copy-on-select = clipboard
+window-padding-balance = true
+window-save-state = always
+macos-titlebar-style = transparent
+background-opacity = 0.8
+background-blur = 90
+maximize = true
 
 # Include wallpaper colors
 config-file = colors-matugen.conf

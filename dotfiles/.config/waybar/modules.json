@@ -32,7 +32,7 @@
     "on-click-middle": "close",
     "ignore-list": [
       "Alacritty",
-      "kitty"
+      "com.mitchellh.ghostty"
     ],
     "app_ids-mapping": {
       "firefoxdeveloperedition": "firefox-developer-edition"

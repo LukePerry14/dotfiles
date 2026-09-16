@@ -39,8 +39,8 @@ shipped ml4w/settings/dock.json.
     "apps": {
         "pinned": [
             "firefox",
-            "kitty",
-            "org.gnome.Nautilus",
+            "com.mitchellh.ghostty",
+            "thunar",
             "org.gnome.Calculator"
         ]
     }

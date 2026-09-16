@@ -6,9 +6,11 @@
     "apps": {
         "pinned": [
             "firefox",
-            "kitty",
-            "org.gnome.Nautilus",
-            "org.gnome.Calculator"
+            "com.mitchellh.ghostty",
+            "thunar",
+            "com.anthropic.Claude",
+            "discord",
+            "steam"
         ]
     }
 }

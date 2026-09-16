@@ -184,7 +184,7 @@
       "file": "~/.config/ml4w/settings/terminal.sh",
       "type": "textfield",
       "mode": "overwrite",
-      "default": "kitty"
+      "default": "ghostty"
     },{
       "name": "Default Browser",
       "id": "default_browser",
@@ -208,7 +208,7 @@
       "file": "~/.config/ml4w/settings/filemanager",
       "type": "textfield",
       "mode": "overwrite",
-      "default": "yazi"
+      "default": "thunar"
     },{
       "name": "Default Network Manager",
       "id": "default_networkmanager",

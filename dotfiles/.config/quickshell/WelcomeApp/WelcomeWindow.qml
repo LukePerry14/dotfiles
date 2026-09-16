@@ -143,7 +143,7 @@ FloatingWindow {
                 ML4WMenuItem { 
                     text: qsTr("Network");
                     onClicked: { 
-                        Quickshell.execDetached(["kitty", "--class", "dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-network"])
+                        Quickshell.execDetached(["ghostty", "--class=dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-network"])
                     }
                 }    
                 ML4WMenuItem { 
@@ -183,7 +183,7 @@ FloatingWindow {
                         if (root.isHyprlandSettingsInstalled) {
                             Quickshell.execDetached(["hyprmod"])
                         } else {
-                            Quickshell.execDetached(["kitty", "--class", "dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-install-hyprmod"])
+                            Quickshell.execDetached(["ghostty", "--class=dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-install-hyprmod"])
                         }
                     }
                 }
@@ -209,7 +209,7 @@ FloatingWindow {
                 ML4WMenuItem { 
                     text: qsTr("Display Manager");
                     onClicked: { 
-                        Quickshell.execDetached(["kitty", "--class", "dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-install-sddm"]) 
+                        Quickshell.execDetached(["ghostty", "--class=dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-install-sddm"]) 
                     }
                 }
                 ML4WMenuItem { 
@@ -221,7 +221,7 @@ FloatingWindow {
                 ML4WMenuItem { 
                     text: qsTr("Change Shell");
                     onClicked: { 
-                        Quickshell.execDetached(["kitty", "--class", "dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-change-shell"])
+                        Quickshell.execDetached(["ghostty", "--class=dotfiles-floating", "-e", Quickshell.env("HOME") + "/.config/ml4w/scripts/ml4w-change-shell"])
                     }
                 }
                 ML4WMenuItem { 

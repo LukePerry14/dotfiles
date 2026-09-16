@@ -16,7 +16,7 @@ hyprlock
 hypridle
 hyprpicker
 xdg-desktop-portal-hyprland
-kitty
+ghostty
 vlc
 waybar
 rofi
@@ -25,7 +25,7 @@ pavucontrol
 neovim
 blueman
 qt6ct
-nautilus
+thunar
 gnome-text-editor
 firefox
 xdg-user-dirs
